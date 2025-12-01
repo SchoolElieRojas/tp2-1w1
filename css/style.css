@@ -1,0 +1,126 @@
+
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+body {
+    background-color: #231818;
+}
+.entete__nav{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 400px;
+    /* 2rem = 2*14px */
+    font-size: 2rem;
+    background-color: rgb(220, 220, 220);
+    padding: 10px;
+}
+ 
+.entete__nav a{
+    text-decoration: none;
+    padding: 10px;
+}
+ 
+.entete__nav a:hover{
+    background-color: gray;
+    color: black;
+}
+ h1,h2,h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+ }
+h1{
+    margin: 0;
+    padding: 20px;
+}
+ 
+section{
+    height: 100vh;
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+figure > img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.centre {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* /////////////////////////////////////////// colloration des sections */
+.titre{
+    background-color: yellow;
+}
+.un{
+    color: #000000;
+    background-color: rgb(10, 199, 36);
+}
+.deux{
+    color: #000000;
+ background-color: rgb(10, 159, 30);
+}
+.trois{
+    color: #000000;
+    background-color: rgb(255, 85, 0);
+}
+.quatre{
+    color: #000000;
+    background-color: rgb(255, 0, 0);
+}
+.cinq {
+    height: 52vh;
+    background-color: rgba(255, 0, 0, 0.532);
+}
+body >div:nth-of-type(1) {
+    color: #2eb60b;
+}
+
+body >div:nth-of-type(2) {
+    color: white;
+}
+.hero {
+    min-height: 100vh;
+
+    background: url("../images/R.jpg") ;
+    padding: 100px;
+    background-size: cover;
+    background-position-y: 80%;
+}
+.h1__entete {
+    text-shadow: 2px 1px green;
+    font-size: 60px;
+    padding:0;
+}
+.h2__entete {
+    text-shadow: 2px 1px green;
+    font-size: 40px;
+    padding-right: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section > h1 {
+    font-size: 40px;
+    padding: 15px;
+}
+section > a {
+    background-color: rgba(255, 255, 255, 0.18);
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 30px;
+}
+figure {
+    border-radius: 27%;
+    background: #086969;
+}
+.pied__page {
+    bottom: 20px;
+    left: 20px;
+}
